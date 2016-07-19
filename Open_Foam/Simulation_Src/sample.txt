@@ -1,0 +1,21 @@
+The following structure is an example of OpenFoam structure
+.
+├── 0
+│   ├── U
+│   └── p
+├── constant
+│   ├── RASProperties
+│   ├── polyMesh
+│   │   ├── boundary
+│   │   ├── cellZones
+│   │   ├── faceZones
+│   │   ├── faces
+│   │   ├── neighbour
+│   │   ├── owner
+│   │   ├── pointZones
+│   │   └── points
+│   └── transportProperties
+└── system
+    ├── controlDict
+    ├── fvSchemes
+    └── fvSolution
